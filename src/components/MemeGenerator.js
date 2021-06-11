@@ -56,7 +56,7 @@ class MemeGenerator extends React.Component {
                     <button>Gen</button>
                 </form>
                 <div className="meme">
-                    {this.state.isLoading ? <p>Loading...</p> : <img src={this.state.randImg} alt="Random Image" />}
+                    {this.state.isLoading ? <p>Loading...</p> : <img src={this.state.randImg} alt="Random" />}
                     <h2 className="top">{this.state.topTxt}</h2>
                     <h2 className="bottom">{this.state.bottomTxt}</h2>
                 </div>

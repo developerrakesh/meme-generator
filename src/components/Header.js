@@ -1,10 +1,11 @@
 import React from "react";
+import trollFace from "../images/Trollface.png";
 
 class Header extends React.Component {
     render() {
         return(
             <header>
-                <img src="http://www.pngall.com/wp-content/uploads/2016/05/Trollface.png" alt="Troll Face" />
+                <img src={trollFace} alt="Troll Face" />
                 <p>Meme Generator</p>
             </header>
         )
